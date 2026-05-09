@@ -32,7 +32,7 @@ Build a multi-channel notification orchestration system composed of:
 
 ## Technical Requirements
 
-- The code must be written in C# (.NET 8).
+- The code must be written in C# (.NET 10).
 - Must include unit and integration tests with a minimum coverage of 70% across the domain and application layers.
 - The solution must be deployable to Azure using infrastructure scripts (e.g., ARM, Bicep, or Terraform) or clear deployment instructions.
 - The API must expose a health check endpoint (`/health`) that returns the status of critical components.
